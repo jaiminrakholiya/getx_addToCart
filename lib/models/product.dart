@@ -1,3 +1,5 @@
+import 'package:get/state_manager.dart';
+
 class Product {
   final int id;
   final String productName;
@@ -12,4 +14,6 @@ class Product {
     required this.productDescription,
     required this.price,
   });
+
+  final isFavortie = false.obs;
 }
